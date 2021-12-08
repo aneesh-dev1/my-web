@@ -325,11 +325,13 @@ section{
     font-weight: 500;
 
 }
-.rightCV a{
+.downbtn a{
     
-    display: inline-block;
-    position: relative;
-    left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
     background: #65CCB8;
     color: #fff;
     font-size: 23px;
@@ -339,7 +341,7 @@ section{
     border: 2px solid #65CCB8;
     transition: all 0.3s ease
 }
-.rightCV a:hover{
+.downbtn a:hover{
     background: none;
     color: #65CCB8;
 }
@@ -686,8 +688,8 @@ footer span a:hover{
         width: 100%;
         margin-bottom: 35px;
     }
-    .rightCV a{
-        left: 160px;
+    .downbtn a{
+        font-size: 22px;
     }
 
 }
@@ -701,14 +703,13 @@ footer span a:hover{
     .home .homeContent .text3{
             font-size: 32px;
     }
-    .rightCV a{
+    .downbtn a{
         font-size: 20px;
         padding: 9px 18px;
-        left: 140px;
     }
 }
 @media(max-width : 574px){
-    .rightCV a{
+    .downbtn a{
         font-size: 16px;
         padding: 9px 18px;
     }
@@ -720,12 +721,16 @@ footer span a:hover{
         .home .homeContent .text3{
             font-size: 27px;
         }
-        .rightCV a{
+        .downbtn a{
             font-size: 14px;
         }
 }
 @media(max-width : 470px){
     .full-name{
         font-size: 30px;
+    }
+    .downbtn a{
+        font-size: 12px;
+        padding: 9px 16px;
     }
 }
